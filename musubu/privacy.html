@@ -1,111 +1,126 @@
-# Gizlilik Politikası
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musubu - Gizlilik Politikası</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            color: #333; 
+        }
+        h1, h2, h3 { color: #222; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { margin-top: 30px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        table, th, td { border: 1px solid #ddd; }
+        th, td { padding: 12px; text-align: left; }
+        th { background-color: #f5f5f5; }
+        .date { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
 
-**Son güncelleme: 27 Mayıs 2026**
+    <h1>Gizlilik Politikası</h1>
+    <p class="date"><strong>Son güncelleme: 27 Mayıs 2026</strong></p>
 
-Bu Gizlilik Politikası, **Sora Labs** tarafından geliştirilen **Musubu** mobil uygulaması için geçerlidir. Musubu; Android platformunda ücretsiz olarak sunulan, reklam destekli bir Japon temalı taş eşleştirme oyunudur.
+    <p>Bu Gizlilik Politikası, <strong>Sora Labs</strong> tarafından geliştirilen <strong>Musubu</strong> mobil uygulaması için geçerlidir. Musubu; Android platformunda ücretsiz olarak sunulan, reklam destekli bir Japon temalı taş eşleştirme oyunudur.</p>
 
-Uygulamayı indirip kullanarak bu politikada açıklanan uygulamaları kabul etmiş sayılırsınız. Bu politikayı kabul etmiyorsanız lütfen uygulamayı kullanmayınız.
+    <p>Uygulamayı indirip kullanarak bu politikada açıklanan uygulamaları kabul etmiş sayılırsınız. Bu politikayı kabul etmiyorsanız lütfen uygulamayı kullanmayınız.</p>
 
----
+    <h2>1. Bilgi Toplama ve Kullanım</h2>
 
-## 1. Bilgi Toplama ve Kullanım
+    <h3>1.1 Oyun Verisi — Yalnızca Yerel Depolama</h3>
+    <p>Musubu, aşağıdaki oyun verilerini <strong>yalnızca cihazınızın yerel deposunda</strong> (Android SharedPreferences) saklar. Bu veriler hiçbir sunucuya, buluta veya üçüncü taraflara iletilmez:</p>
+    <ul>
+        <li>En yüksek puan (tüm zamanlar)</li>
+        <li>Günlük puan geçmişi (son 7 güne ait)</li>
+        <li>Günlük meydan okuma tamamlanma durumu ve skoru</li>
+        <li>Deste ilerleme kayıtları</li>
+        <li>Oyun ayarları (zorluk, ses efektleri, titreşim, ortam sesi)</li>
+        <li>Uygulama giriş durumu (tanıtım ekranı gösterildi mi)</li>
+    </ul>
+    <p>Bu verilerin tamamı cihazınızda şifreli uygulama sanal alanı (private application sandbox) içinde tutulur. Uygulamayı sildiğinizde bu veriler tamamen silinir.</p>
 
-### 1.1 Oyun Verisi — Yalnızca Yerel Depolama
+    <h3>1.2 Google Play Hizmetleri ve AdMob Reklamları</h3>
+    <p>Musubu, reklam gösterimi için <strong>Google AdMob</strong> hizmetini kullanmaktadır. AdMob, üçüncü taraf bir hizmet olup bağımsız bir gizlilik politikasına tabidir.</p>
 
-Musubu, aşağıdaki oyun verilerini **yalnızca cihazınızın yerel deposunda** (Android SharedPreferences) saklar. Bu veriler hiçbir sunucuya, buluta veya üçüncü taraflara iletilmez:
+    <p><strong>AdMob'un uygulama aracılığıyla toplayabileceği veriler:</strong></p>
+    <table>
+        <tr>
+            <th>Veri Türü</th>
+            <th>Amaç</th>
+        </tr>
+        <tr>
+            <td>Reklam Kimliği (Advertising ID / GAID)</td>
+            <td>Kişiselleştirilmiş reklam hedefleme</td>
+        </tr>
+        <tr>
+            <td>IP adresinden türetilen yaklaşık konum</td>
+            <td>Bölgesel reklam sunumu</td>
+        </tr>
+        <tr>
+            <td>Cihaz bilgileri (işletim sistemi sürümü, ekran çözünürlüğü)</td>
+            <td>Reklam uyumluluğu</td>
+        </tr>
+        <tr>
+            <td>Reklam etkileşim verileri (gösterim, tıklama)</td>
+            <td>Reklam performans ölçümü</td>
+        </tr>
+    </table>
 
-- En yüksek puan (tüm zamanlar)
-- Günlük puan geçmişi (son 7 güne ait)
-- Günlük meydan okuma tamamlanma durumu ve skoru
-- Deste ilerleme kayıtları
-- Oyun ayarları (zorluk, ses efektleri, titreşim, ortam sesi)
-- Uygulama giriş durumu (tanıtım ekranı gösterildi mi)
+    <p>Bu veriler <strong>Sora Labs tarafından toplanmamakta</strong>; doğrudan Google LLC tarafından işlenmektedir. Google'ın veri işleme uygulamaları hakkında ayrıntılı bilgi için lütfen Google Gizlilik Politikası'nı inceleyin:</p>
+    <p>🔗 <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
 
-Bu verilerin tamamı cihazınızda şifreli uygulama sanal alanı (private application sandbox) içinde tutulur. Uygulamayı sildiğinizde bu veriler tamamen silinir.
+    <p>AdMob'un reklam teknolojisi hakkında daha fazla bilgi için:</p>
+    <p>🔗 <a href="https://support.google.com/admob/answer/6128543" target="_blank">https://support.google.com/admob/answer/6128543</a></p>
 
-### 1.2 Google Play Hizmetleri ve AdMob Reklamları
+    <p><strong>Reklam Kimliğini Sıfırlama veya Kişiselleştirilmiş Reklamları Devre Dışı Bırakma:</strong><br>
+    Android cihazınızda <em>Ayarlar → Gizlilik → Reklamlar</em> yolunu izleyerek Reklam Kimliğinizi sıfırlayabilir veya reklam kişiselleştirmeyi kapatabilirsiniz.</p>
 
-Musubu, reklam gösterimi için **Google AdMob** hizmetini kullanmaktadır. AdMob, üçüncü taraf bir hizmet olup bağımsız bir gizlilik politikasına tabidir.
+    <h2>2. Günlük Veriler (Log Data)</h2>
+    <p>Bir uygulama hatası oluşması durumunda cihazınız Log Verisi adı verilen bilgiler toplayabilir. Bu veriler; IP adresinizi, cihaz adını, işletim sistemi sürümünü, hatanın gerçekleştiği tarih/saat bilgisini ve diğer istatistiksel bilgileri içerebilir.</p>
+    <p><strong>Musubu, herhangi bir çökme raporlama veya analitik SDK içermemektedir.</strong> Günlük verileri yalnızca Android işletim sisteminin standart mekanizmaları aracılığıyla cihazda yerel olarak tutulabilir; Sora Labs tarafından toplanmaz veya işlenmez.</p>
 
-**AdMob'un uygulama aracılığıyla toplayabileceği veriler:**
+    <h2>3. Çerezler (Cookies)</h2>
+    <p>Musubu bir web uygulaması değildir ve çerez kullanmamaktadır. Uygulama, kullanıcı tercihlerini yalnızca Android'in yerel depolama mekanizması olan SharedPreferences aracılığıyla saklar. Bu mekanizma çerez teknolojisinden bağımsızdır ve üçüncü taraflarca erişilemez.</p>
 
-| Veri Türü | Amaç |
-|---|---|
-| Reklam Kimliği (Advertising ID / GAID) | Kişiselleştirilmiş reklam hedefleme |
-| IP adresinden türetilen yaklaşık konum | Bölgesel reklam sunumu |
-| Cihaz bilgileri (işletim sistemi sürümü, ekran çözünürlüğü) | Reklam uyumluluğu |
-| Reklam etkileşim verileri (gösterim, tıklama) | Reklam performans ölçümü |
+    <h2>4. Üçüncü Taraf Bağlantılar</h2>
+    <p>Musubu, bu politikada belirtilen Google AdMob dışında herhangi bir üçüncü taraf hizmeti içermemektedir. Uygulamanın herhangi bir yerinde harici bir bağlantıya tıklamanız durumunda söz konusu sitenin kendi gizlilik politikası geçerlidir. Sora Labs, bu harici sitelerin içerikleri veya gizlilik uygulamaları konusunda herhangi bir sorumluluk kabul etmez.</p>
 
-Bu veriler **Sora Labs tarafından toplanmamakta**; doğrudan Google LLC tarafından işlenmektedir. Google'ın veri işleme uygulamaları hakkında ayrıntılı bilgi için lütfen Google Gizlilik Politikası'nı inceleyin:
+    <h2>5. Güvenlik</h2>
+    <p>Sora Labs, verilerinizin güvenliğini ciddiye almaktadır.</p>
+    <ul>
+        <li>Oyun verilerinizin tamamı cihazınızda yerel olarak saklanmakta ve herhangi bir ağ bağlantısı gerektirmemektedir.</li>
+        <li>Reklam trafiği Google'ın altyapısı üzerinden şifreli bağlantıyla (HTTPS) iletilmektedir.</li>
+        <li>Musubu, herhangi bir kullanıcı hesabı, şifre veya kişisel bilgi gerektirmemektedir.</li>
+    </ul>
+    <p>Hiçbir iletim yöntemi veya elektronik depolama yöntemi %100 güvenli değildir; ancak ticari açıdan kabul edilebilir güvenlik önlemlerini uygulamak için azami çabayı göstermekteyiz.</p>
 
-🔗 [https://policies.google.com/privacy](https://policies.google.com/privacy)
+    <h2>6. Çocukların Gizliliği</h2>
+    <p>Musubu, 13 yaşın altındaki çocuklara yönelik değildir.</p>
+    <p>Bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamamaktayız. Ebeveyn veya veliyseniz ve çocuğunuzun bize kişisel bilgi sağladığını düşünüyorsanız, lütfen aşağıdaki iletişim bilgileri aracılığıyla bizimle iletişime geçin. Söz konusu bilgileri sistemlerimizden derhal kaldıracağız.</p>
+    <p>Uygulama, Birleşik Devletler Çocukların Çevrimiçi Gizliliğini Koruma Yasası (COPPA) ve geçerli yerel mevzuat kapsamındaki yükümlülüklere uygun olarak tasarlanmıştır.</p>
 
-AdMob'un reklam teknolojisi hakkında daha fazla bilgi için:
+    <h2>7. Bu Gizlilik Politikasındaki Değişiklikler</h2>
+    <p>Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayımlanarak yürürlüğe girer. Önemli değişiklikler söz konusu olduğunda uygulama içi bildirim veya mağaza güncellemesi aracılığıyla bilgilendirileceksiniz.</p>
+    <p>Bu politikayı periyodik olarak incelemenizi tavsiye ederiz. Politikanın üst kısmındaki <strong>"Son güncelleme"</strong> tarihi, en son değişikliğin ne zaman yapıldığını gösterir.</p>
 
-🔗 [https://support.google.com/admob/answer/6128543](https://support.google.com/admob/answer/6128543)
+    <h2>8. İletişim</h2>
+    <p>Bu Gizlilik Politikası hakkında herhangi bir sorunuz veya talebiniz varsa lütfen bizimle iletişime geçin:</p>
+    <p><strong>Sora Labs</strong><br>
+    📧 hello.soralabs@gmail.com </p>
 
-**Reklam Kimliğini Sıfırlama veya Kişiselleştirilmiş Reklamları Devre Dışı Bırakma:**
-Android cihazınızda *Ayarlar → Gizlilik → Reklamlar* yolunu izleyerek Reklam Kimliğinizi sıfırlayabilir veya reklam kişiselleştirmeyi kapatabilirsiniz.
+    <hr>
+    <p style="text-align: center; font-size: 0.9em; color: #666;">
+        Bu gizlilik politikası <a href="https://sedaaggez.github.io/soralabs/musubu/privacy.html">https://sedaaggez.github.io/soralabs/musubu/privacy.html</a> adresinde yayımlanmıştır.
+    </p>
 
----
-
-## 2. Günlük Veriler (Log Data)
-
-Bir uygulama hatası oluşması durumunda cihazınız Log Verisi adı verilen bilgiler toplayabilir. Bu veriler; IP adresinizi, cihaz adını, işletim sistemi sürümünü, hatanın gerçekleştiği tarih/saat bilgisini ve diğer istatistiksel bilgileri içerebilir.
-
-**Musubu, herhangi bir çökme raporlama veya analitik SDK içermemektedir.** Günlük verileri yalnızca Android işletim sisteminin standart mekanizmaları aracılığıyla cihazda yerel olarak tutulabilir; Sora Labs tarafından toplanmaz veya işlenmez.
-
----
-
-## 3. Çerezler (Cookies)
-
-Musubu bir web uygulaması değildir ve çerez kullanmamaktadır. Uygulama, kullanıcı tercihlerini yalnızca Android'in yerel depolama mekanizması olan SharedPreferences aracılığıyla saklar. Bu mekanizma çerez teknolojisinden bağımsızdır ve üçüncü taraflarca erişilemez.
-
----
-
-## 4. Üçüncü Taraf Bağlantılar
-
-Musubu, bu politikada belirtilen Google AdMob dışında herhangi bir üçüncü taraf hizmeti içermemektedir. Uygulamanın herhangi bir yerinde harici bir bağlantıya tıklamanız durumunda söz konusu sitenin kendi gizlilik politikası geçerlidir. Sora Labs, bu harici sitelerin içerikleri veya gizlilik uygulamaları konusunda herhangi bir sorumluluk kabul etmez.
-
----
-
-## 5. Güvenlik
-
-Sora Labs, verilerinizin güvenliğini ciddiye almaktadır.
-
-- Oyun verilerinizin tamamı cihazınızda yerel olarak saklanmakta ve herhangi bir ağ bağlantısı gerektirmemektedir.
-- Reklam trafiği Google'ın altyapısı üzerinden şifreli bağlantıyla (HTTPS) iletilmektedir.
-- Musubu, herhangi bir kullanıcı hesabı, şifre veya kişisel bilgi gerektirmemektedir.
-
-Hiçbir iletim yöntemi veya elektronik depolama yöntemi %100 güvenli değildir; ancak ticari açıdan kabul edilebilir güvenlik önlemlerini uygulamak için azami çabayı göstermekteyiz.
-
----
-
-## 6. Çocukların Gizliliği
-
-Musubu, 13 yaşın altındaki çocuklara yönelik değildir.
-
-Bilerek 13 yaşın altındaki çocuklardan kişisel veri toplamamaktayız. Ebeveyn veya veliyseniz ve çocuğunuzun bize kişisel bilgi sağladığını düşünüyorsanız, lütfen aşağıdaki iletişim bilgileri aracılığıyla bizimle iletişime geçin. Söz konusu bilgileri sistemlerimizden derhal kaldıracağız.
-
-Uygulama, Birleşik Devletler Çocukların Çevrimiçi Gizliliğini Koruma Yasası (COPPA) ve geçerli yerel mevzuat kapsamındaki yükümlülüklere uygun olarak tasarlanmıştır.
-
----
-
-## 7. Bu Gizlilik Politikasındaki Değişiklikler
-
-Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Değişiklikler bu sayfada yayımlanarak yürürlüğe girer. Önemli değişiklikler söz konusu olduğunda uygulama içi bildirim veya mağaza güncellemesi aracılığıyla bilgilendirileceksiniz.
-
-Bu politikayı periyodik olarak incelemenizi tavsiye ederiz. Politikanın üst kısmındaki **"Son güncelleme"** tarihi, en son değişikliğin ne zaman yapıldığını gösterir.
-
----
-
-## 8. İletişim
-
-Bu Gizlilik Politikası hakkında herhangi bir sorunuz veya talebiniz varsa lütfen bizimle iletişime geçin:
-
-**Sora Labs**
-📧 hello.soralabs@gmail.com
-
----
-
-*Bu gizlilik politikası https://sedaaggez.github.io/soralabs/musubu/privacy.html adresinde yayımlanmıştır.*
+</body>
+</html>
